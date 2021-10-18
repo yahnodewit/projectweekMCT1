@@ -1,0 +1,1033 @@
+/*alles*/
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+/*onder de navigatie*/
+#container{
+  background-color: #F7F7F7;
+}
+
+/*navigatie*/
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 8vh;
+  background-color: grey;
+  width: 100%;
+  position: fixed;
+  z-index: 3;
+}
+
+.logo{
+  display: flex;
+  width: 10%;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.logo img{
+  width: 80%;
+}
+
+.nav-link{
+  display: flex;
+  justify-content: end;
+  width: 100%;
+  color: white;
+}
+
+.line{
+  line-height: 40px;
+}
+
+.nav-link #first{
+  margin-left: 20%;
+}
+
+.nav-link  li{
+  display: inline-block;
+  margin-left: 3%;
+  list-style: none;
+  font-size: 18px;
+  font-family: 'Hind Vadodara', sans-serif;
+  font-weight: 600;
+}
+
+.nav-link #knop{
+  margin-left: 15%;
+  font-size: 20px;
+  font-family: 'Hind Vadodara', sans-serif;
+  font-weight: 600;
+  background-color: #8FA177;
+  padding: 5px 20px;
+  color: white;
+  border-radius: 30px;
+}
+
+.nav-link #knop:hover{
+  background-color: #D3DDE1;
+}
+
+.nav-link #knop:active{
+  background-color: #CCC;
+}
+
+.nav-link a{
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover{
+  color: #8FA177;
+}
+
+.nav-link #knop a:hover{
+  color: white;
+}
+
+.burger {
+  display: none;
+  cursor: pointer;
+}
+
+.burger div{
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 5px;
+}
+
+/*homapagina*/
+#home{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+/*achtergrond video op homepage*/
+#video {
+  position: absolute;
+  text-align: center;
+  min-width: 100%;
+  min-height: 100vh;
+}
+
+/*tekst zwarte vak en buttons op de video*/
+#text{
+  margin: 20px;
+  padding: 20px;
+  padding-top: 10px;
+  border-radius: 20px;
+  z-index: 1;
+  background-color: black;
+
+}
+
+#text h2 {
+  font-size: 28px;
+  font-family: 'Poppins', sans-serif;
+  line-height: 30px;
+  font-weight: 700;
+  color: #EFC19D;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+#text p {
+  font-size: 16px;
+  font-family: 'Hind Vadodara', sans-serif;
+  font-weight: 400;
+  line-height: 20px;
+  color: white;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.button{
+  font-size: 200px;
+  font-family: 'Hind Vadodara', sans-serif;
+  font-weight: 400;
+  float: left;
+  background-color: #8FA177;
+  margin: 10px;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 30px;
+}
+
+.button:hover{
+  background-color: #D3DDE1;
+}
+
+.button:active{
+  background-color: #CCC;
+}
+
+/*about us pagina deel 1*/
+#about{
+  position: relative;
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-image: url(afbeeldingen/green-chameleon-s9CC2SKySJM-unsplash.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-size: 60px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+
+/*wester en about us deel 2*/
+#about1, #western1{
+  position: relative;
+  width: 100%;
+  height: 70vh;
+}
+
+/*groepsfoto op about us pagina*/
+#picturegroup{
+  width: 20%;
+  float: left;
+}
+
+#picturegroup img{
+  width: 100%;
+  margin: 50px;
+  margin-top: 60px; 
+}
+
+/*wie zijn we*/
+#whoarewe{
+  width: 50%;
+  float: left;
+  margin-top: 60px;
+  margin-left: 150px;
+}
+
+/*h2 op about us, western party pagina*/
+#whoarewe h2, #fixedlocation h2, #westerncityinfo h2{
+  font-size: 28px;
+  font-family: 'Poppins', sans-serif;
+  line-height: 30px;
+  font-weight: 600;
+  color: #EFC19D;
+  margin-bottom: 10px;
+}
+
+/*paragraaf op about us en western pagina*/
+#whoarewe #textwhoarewe,  #westerncityinfo p{
+  font-size: 16px;
+  font-family: 'Hind Vadodara', sans-serif;
+  line-height: 20px;
+  font-weight: 400;
+  color: #696666;
+  margin-bottom: 40px;
+}
+
+/*button op about us pagina*/
+#whoarewe #button1{
+  font-size: 20px;
+  font-family: 'Hind Vadodara', sans-serif;
+  font-weight: 400;
+  float: left;
+  border: 2px solid #8FA177;
+  margin: 10px;
+  margin-left: 0px;
+  padding: 5px 10px;
+  color: #696666;
+  border-radius: 30px;
+}
+
+#whoarewe #button1:hover{
+  border: 2px solid #D3DDE1;
+}
+
+#whoarewe #button1:active{
+  border: 2px solid #CCC;
+}
+
+/*locatie*/
+#fixedlocation{
+  width: 20%;
+  float: left;
+  margin-top: 60px;
+  margin-left: -100px;
+}
+
+#fixedlocation address{
+  font-size: 20px;
+  font-family: 'Hind Vadodara', sans-serif;
+  line-height: 24px;
+  font-weight: 300;
+  color: #696666;
+  padding-bottom: 50px;
+}
+
+/* western party pagina deel 1*/
+#western{
+  position: relative;
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-image: url(afbeeldingen/chor-tsang-Zf-Ajaj-zOI-unsplash.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-size: 60px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+
+/* tekst op western party pagina deel 2*/
+#westerncityinfo{
+  width: 40%;
+  float: left;
+  margin: 90px 50px;
+}
+
+#westerncityinfo address{
+  font-size: 20px;
+  font-family: 'Hind Vadodara', sans-serif;
+  line-height: 24px;
+  font-weight: 300;
+  color: #696666;
+  padding-bottom: 40px;
+}
+
+/*foto op western pagina deel 2*/
+#westerncitypicture{
+  width: 20%;
+  float: left;
+  margin: 100px;
+  margin-left: 150px;
+}
+
+#westerncitypicture img{
+  width: 150%;
+}
+
+/*activiteiten pagina deel 1*/
+#activities{
+  position: relative;
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-image: url(afbeeldingen/pascal-van-de-vendel-81mllqC4JiU-unsplash.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-size: 60px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+
+/*activiteiten pagina deel 2*/
+#activities1{
+  height: 140vh;
+  width: 100%;
+  text-align: center;
+}
+
+#activities1{  
+  font-size: 16px;
+  font-family: 'Hind Vadodara', sans-serif;
+  line-height: 20px;
+  font-weight: 400;
+  color: #696666;
+  margin-top: 1px;
+  margin-bottom: 30px;
+}
+
+#leftpictureboven{
+  width: 20%;
+  float: left;
+  margin: 50px;
+  margin-left: 15%;
+}
+
+#leftpictureboven img{
+  width: 100%;
+}
+
+#middenboven{
+  width: 20%;
+  float: left;
+  margin: 50px;
+}
+
+#middenboven img{
+  width: 100%;
+}
+
+#rechtsboven{
+  width: 20%;
+  float: left;
+  margin: 50px;
+}
+
+#rechtsboven img{
+  width: 100%;
+}
+
+#centervideo{
+  width: 100%;
+  float: left;
+}
+
+#leftpictureonder{
+  width: 20%;
+  float: left;
+  margin: 50px;
+  margin-left: 25%;
+}
+
+#leftpictureonder img{
+  width: 100%;
+}
+
+#rightpictureonder{
+  width: 20%;
+  float: left;
+  margin: 50px;
+}
+
+#rightpictureonder img{
+  width: 100%;
+}
+
+/*past event pagina deel 1*/
+#pastevents{
+  position: relative;
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-image: url(afbeeldingen/adam-whitlock-I9j8Rk-JYFM-unsplash.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-size: 60px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+
+/*past event pagina deel 2*/
+#pastevents1{
+  height: 70vh;
+}
+
+#linker{
+  width: 25%;
+  float: left;
+  margin-right: 50px;
+  margin-left: 140px;
+  margin-top: 60px;
+}
+
+#linker img{
+  width: 100%;
+}
+
+#midden{
+  width: 25%;
+  float: left;
+  margin-right: 50px;
+  margin-top: 60px;
+}
+
+#midden img{
+  width: 100%;
+}
+
+#rechts{
+  width: 25%;
+  float: left;
+  margin-top: 60px;
+}
+
+#rechts img{
+  width: 100%;
+}
+
+#linker h2, #rechts h2, #midden h2{
+  font-size: 28px;
+  font-family: 'Poppins', sans-serif;
+  line-height: 30px;
+  font-weight: 600;
+  color: #EFC19D;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+#linker p, #rechts p, #midden p{
+  font-size: 16px;
+  font-family: 'Hind Vadodara', sans-serif;
+  line-height: 20px;
+  font-weight: 400;
+  color: #696666;
+}
+
+/*contact pagina deel 1*/
+#contact{
+  position: relative;
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-image: url(afbeeldingen/glenn-carstens-peters-npxXWgQ33ZQ-unsplash.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-size: 60px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+
+#contact1{
+  height: 50vh;
+}
+
+#kaart{
+  width: 30%;
+  float: left;
+  margin: 70px;
+}
+
+#icons{
+  width: 10%;
+  float: left;
+  margin-top: 120px;
+  margin-left: 75px;
+}
+
+#icons i{
+  font-size: 30px;
+  margin-bottom: 30px;
+  color: #EFC19D;
+}
+
+#teksticon{
+  width: 20%;
+  float: left;
+  margin-top: 125px;
+  margin-left: -80px;
+}
+
+#teksticon p{
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-family: 'Hind Vadodara', sans-serif;
+  line-height: 20px;
+  font-weight: 400;
+  color: #696666;
+}
+
+#teksticon #een{
+  margin-top: 4%;
+}
+
+#form{
+  width: 20%;
+  float: left;
+  margin-top: 70px;
+  margin-left: 80px;
+}
+
+#form label{
+  font-size: 16px;
+  font-family: 'Hind Vadodara', sans-serif;
+  line-height: 30px;
+  font-weight: 400;
+  color: #696666;
+}
+
+#info2 input{
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+  height: 1px;
+  width: 100%;
+  line-height: 0px;
+  margin-bottom: 3px;
+}
+
+#info2 input:hover{
+  border: 2px solid #D3DDE1;
+}
+
+#info2 input:focus{
+  border: 3px solid #8FA177;
+}
+
+#info2 textarea{
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+  height: 100px;
+  width: 100%;
+}
+
+#info2 textarea:hover{
+  border: 2px solid #D3DDE1;
+}
+
+#info2 textarea:focus{
+  border: 3px solid #8FA177;
+}
+
+#send{
+  width: 50%;
+}
+
+#send input{
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+  height: 1px;
+  width: 100%;
+  line-height: 0px;
+  font-size: 16px;
+  font-family: 'Hind Vadodara', sans-serif;
+  font-weight: 400;
+  color: white;
+  background-color: #8FA177;
+  margin-top: 25px;
+}
+
+#send input:hover{
+  background-color: #D3DDE1;
+}
+
+#send input:active{
+ background-color: #CCC;
+}
+
+footer{
+  height: 7vh;
+  margin-left: 50%;
+}
+
+footer i{
+  font-size: 40px;
+  color: #8FA177;
+  margin-right: 10px;
+}
+
+footer i:hover{
+  color: #D3DDE1;
+}
+
+footer i:active{
+  color: #CCC;
+}
+
+
+/*tablet version*/
+@media screen and (max-width: 1150px){
+	.nav-link #knop{
+	  margin-left: 5%;
+	}
+
+	.nav-link #first{
+	  margin-left: 5%;
+	}
+
+	#video{
+	  display: none;
+	}
+
+	#home{
+	  background-image: url(afbeeldingen/mahir-uysal-ywVLrYtNXMQ-unsplash1.png);
+	}
+
+	#picturegroup{
+  	width: 30%;
+  	display: flex;
+  	align-items: center;
+  	margin-left: 100px;
+  	margin-right: 100px;
+  	margin-top: 90px;
+  }
+
+  #textwholocation{
+  	float: left;
+  	width: 30%;
+  }
+
+  #whoarewe{
+  	width: 100%;
+  	float: left;
+  	margin-top: 60px;
+  	margin-left: 50px;
+ 	}
+
+  #fixedlocation{
+  	width: 100%;
+  	margin-top: 50px;
+  	margin-left: 50px;
+ 	}
+
+ 	#about1{
+ 	  height: 100vh;
+ 	}
+
+ 	#western1{
+ 	  height: 90vh;
+ 	}
+
+ 	#westerncityinfo{
+ 	  width: 50%;
+ 	}
+
+ 	#westerncitypicture{
+ 	  width: 20%;
+ 	  margin-left: 30px;
+ 	}
+
+ 	#whoarewe #textwhoarewe{
+ 	  margin-bottom: 15px;
+ 	}
+
+ 	#fixedlocation address{
+ 	  padding-bottom: 20px;
+ 	}
+
+ 	#whoarewe #button1{
+ 	  margin-bottom: 0px;
+ 	}
+
+ 	#leftpictureboven{
+      width: 30%;
+      margin-left: 15%;
+    }
+
+  #middenboven{
+  	width: 30%;
+  }
+
+  #rechtsboven{
+  	width: 30%;
+  	margin-left: 35%;
+  }
+
+  #leftpictureonder{
+  	width: 30%;
+  	margin-left: 15%;
+  }
+
+  #rightpictureonder{
+  	width: 30%;
+  }
+
+  #activities1{
+  	height: 190vh;
+  }
+
+  #linker{
+    width: 35%;
+    margin-right: 50px;
+    margin-left: 15%;
+    margin-top: 60px;
+  }
+
+
+ 	#midden{
+  	  width: 35%;
+  	  margin-right: 50px;
+ 	  margin-top: 60px;
+ 	}
+
+
+ 	#rechts{
+  	  width: 35%;
+  	  margin-top: 60px;
+  	  margin-left: 15%;
+ 	}
+
+ 	#pastevents1{
+ 	  height: 130vh;
+ 	}
+
+ 	#contact1{
+  	  height: 100vh;
+	}
+
+	#kaart{
+  	  width: 35%;
+  	  margin-left: 30px;
+	}
+
+	#icons{
+	  margin-left: 120px;
+	}
+
+
+	#teksticon{
+  	  width: 30%;
+  	  margin-left: -30px;
+	}
+
+	#form{
+  	  width: 80%;
+  	  margin-top: 0px;
+	}
+
+}
+
+/*mobile version*/
+@media screen and (max-width: 768px){
+	#container{
+	  overflow: hidden;
+	}
+	
+	.nav-link{
+	  position: absolute;
+	  right: 0px;
+	  height: 92vh;
+	  top: 8vh;
+	  width: 50%;
+	  background-color: grey;
+	  display: flex;
+	  flex-direction: column;
+	  align-items: center;
+	  transform: translateX(100%);
+	  transition: transform 0.5s ease-in;
+	}
+
+	.nav-link  li{
+	  margin-left: 5%;
+	  margin-top: 40px;
+	  opacity: 1;
+	}
+
+	.burger{
+	  display: block;
+	  margin-left: 400px;
+	}
+
+	.logo img{
+	  margin-right: 100px;
+	}
+
+	#video{
+	  display: none;
+	}
+
+	#home{
+	  background-image: url(afbeeldingen/mahir-uysal-ywVLrYtNXMQ-unsplash.png);
+	}
+
+	#picturegroup{
+    width: 100%;
+  	margin-left: 100px;
+  	margin-right: 100px;
+  	margin-top: 10px;
+  }
+
+  #picturegroup img{
+  	width: 50%
+  }
+
+  #textwholocation{
+  	width: 100%;
+  }
+
+  #whoarewe{
+  	margin-top: 10px;
+  	margin-left: 30%;
+ 	}
+
+  #fixedlocation{
+  	margin-top: 50px;
+  	margin-left: 30%;
+ 	}
+
+ 	#about1{
+ 	  height: 168vh;
+ 	}
+
+ 	#westerncityinfo{
+ 	  width: 100%;
+ 	  margin-bottom: 50px;
+ 	  text-align: center;
+ 	  margin-left: 0px;
+ 	}
+
+ 	#westerncitypicture{
+ 	  width: 100%;
+ 	  margin-left: 50px;
+ 	  margin-top: 0px;
+ 	}
+
+ 	#westerncitypicture img{
+ 	  width: 80%;
+ 	}
+
+ 	#leftpictureboven{
+   	width: 100%;
+   	margin:50px;
+    margin-left: 0%;
+  }
+
+  #leftpictureboven img{
+  	width: 70%
+  }
+
+  #middenboven{
+  	width: 100%;
+  	margin-left: 0px;
+  }
+
+  #middenboven img{
+  	width: 70%
+  }
+
+  #rechtsboven{
+  	width: 100%;
+  	margin:50px;
+   	margin-left: 0%;
+  }
+
+  #rechtsboven img{
+  	width: 70%
+  }
+
+  #leftpictureonder{
+  	width: 100%;
+  	margin:50px;
+   	margin-left: 0%;
+  }
+
+  #leftpictureonder img{
+  	width: 70%
+  }
+
+  #rightpictureonder{
+  	width: 100%;
+  	margin-left: 0px;
+  }
+
+  #rightpictureonder img{
+  	width: 70%
+  }
+
+  #activities1{
+  	height: 190vh;
+  }
+
+  #centervideo iframe{
+  	width:80%;
+  }
+
+  #linker{
+  	width: 100%;
+  	margin-right: 50px;
+  	margin-left: 10%;
+  	margin-top: 60px;
+ 	}
+
+  #linker img{
+  	width: 80%;
+  }
+
+ 	#midden{
+ 	  width: 100%;
+  	margin-right: 50px;
+ 	  margin-top: 60px;
+ 	  margin-left: 10%;
+ 	}
+
+ 	#midden img{
+ 	  width: 80%;
+  }
+
+ 	#rechts{
+ 	  width: 100%;
+  	margin-top: 60px;
+  	margin-left: 10%;
+ 	}
+
+ 	#rechts img{
+ 	  width: 80%;
+  }
+
+ 	#pastevents1{
+ 	  height: 225vh;
+ 	}
+
+ 	#contact1{
+  	  height: 150vh;
+	}
+
+	#kaart{
+  	  width: 80%;
+  	  margin-left: 15%;
+	}
+
+	#kaart iframe{
+		width: 80%;
+	}
+
+	#icons{
+	  width: 20%;
+	  margin-left: 25%;
+	  margin-top: 5px;
+	  margin-bottom: 20px;
+	}
+
+	#form{
+		margin-left: 10%;
+	}
+
+	#teksticon{
+  	  width: 50%;
+  	  margin-left: -50px;
+  	  margin-top: 10px;
+	}
+
+	footer{
+		margin-left: 40%;
+	}
+	
+}
+
+
+/*animatie navigatie*/
+
+.nav-active{
+	transform: translateX(0%);
+}
+
+@keyframes navLinkFade{
+	from{
+		opacity: 0;
+		transform: translateX(50px);
+	}
+
+	to{
+		opacity: 1;
+		transform: translateX(0px);
+	}
+
+}
